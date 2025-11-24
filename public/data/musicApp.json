@@ -1,0 +1,200 @@
+{
+  "hero": {
+    "title": "Eclipse Player",
+    "tagline": "把錄音室等級的聲場帶到日常",
+    "copy": "Eclipse 結合空間音訊與 AI 混音，根據裝置與耳機型號同步調整 EQ，還能記住你的聆聽習慣，推播真正有共鳴的演出。全新 v3.2 版本新增「旅行模式」，自動偵測飛航或捷運路線調整降噪曲線。",
+    "actions": ["開啟體驗模式", "同步播放清單"],
+    "artwork": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1600&q=80"
+  },
+  "nowPlaying": {
+    "title": "Drift Between Satellites",
+    "artist": "Lumen Echo",
+    "album": "Synthetic Dawn",
+    "duration": 284,
+    "elapsed": 132,
+    "bitrate": "Lossless 24-bit / 96 kHz",
+    "artwork": "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80",
+    "lyrics": [
+      "Hold the signal while the skyline folds",
+      "Trade the silence for a softer glow",
+      "Breathe in fragments of the afterglow",
+      "Maps of static bloom inside control rooms",
+      "Orbit gently where the pulse resumes"
+    ],
+    "credits": {
+      "producer": "Kara Øster",
+      "mixEngineer": "Studio 39A",
+      "writers": ["Aki Lin", "Lumen Echo Collective"]
+    }
+  },
+  "queue": [
+    {
+      "title": "Amber Circuit",
+      "artist": "Verla Fields",
+      "length": 257
+    },
+    {
+      "title": "Sleepless Transit",
+      "artist": "Night Harbor",
+      "length": 301
+    },
+    {
+      "title": "Lantern Bloom",
+      "artist": "Kite River",
+      "length": 226
+    }
+  ],
+  "mixes": [
+    {
+      "name": "Fog City Minimal",
+      "description": "Lo-fi 合成器搭配霧面爵士鼓點，適合夜間專注工作。",
+      "cover": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=900&q=80",
+      "mood": ["Night", "Focus"]
+    },
+    {
+      "name": "Sunrise Field Notes",
+      "description": "採樣自然環境的聲響，並穿插木吉他與輕電子節奏，幫助放鬆。",
+      "cover": "https://images.unsplash.com/photo-1454922915609-78549ad709bb?auto=format&fit=crop&w=900&q=80",
+      "mood": ["Morning", "Calm"]
+    },
+    {
+      "name": "Night Transit Club",
+      "description": "凝結舞池能量的 techno 與 UK garage 編排，無縫串流熱場。",
+      "cover": "https://images.unsplash.com/photo-1465220183275-1faa863377e2?auto=format&fit=crop&w=900&q=80",
+      "mood": ["Party", "High Energy"]
+    },
+    {
+      "name": "Analog Rain Sketches",
+      "description": "以模擬合成器與雨聲錄音交錯，打造沉浸式聲景。",
+      "cover": "https://images.unsplash.com/photo-1485579149621-3123dd979885?auto=format&fit=crop&w=900&q=80",
+      "mood": ["Study", "Ambient"]
+    }
+  ],
+  "sessions": [
+    {
+      "city": "台北",
+      "venue": "Pipe Live Music",
+      "date": "06/28",
+      "highlight": "立體聲現場混音示範",
+      "tickets": "限量 80 張"
+    },
+    {
+      "city": "東京",
+      "venue": "Daikanyama T-Site",
+      "date": "07/12",
+      "highlight": "DJ 即時採樣工作坊",
+      "tickets": "錄音室導覽包含在內"
+    },
+    {
+      "city": "柏林",
+      "venue": "Funkhaus Studio",
+      "date": "08/04",
+      "highlight": "沉浸式聆聽展區",
+      "tickets": "提供多聲道耳機試聽"
+    },
+    {
+      "city": "紐約",
+      "venue": "Pioneer Works",
+      "date": "08/24",
+      "highlight": "AI 混音分享會",
+      "tickets": "現場錄製 podcast"
+    }
+  ],
+  "stats": {
+    "weeklyMinutes": 812,
+    "listeningStreak": 37,
+    "favoriteGenres": ["Ambient House", "Neo Soul", "Leftfield Pop", "Downtempo Jazz"],
+    "topDevices": ["MacBook Pro", "iPhone 15 Pro", "Nebula Pocket Player"],
+    "focusHours": 43,
+    "sleepSessions": 18
+  },
+  "features": [
+    {
+      "title": "空間音訊定位",
+      "description": "透過頭部追蹤與房間建模，即使切換裝置也能維持相同的聲像位置。",
+      "status": "beta"
+    },
+    {
+      "title": "AI 混音助理",
+      "description": "根據歌曲段落自動調整 EQ 與壓縮器，維持統一響度並保留細節。",
+      "status": "stable"
+    },
+    {
+      "title": "旅行模式",
+      "description": "偵測行程後提前下載播放清單並套用離線降噪參數。",
+      "status": "new"
+    }
+  ],
+  "settings": {
+    "playbackMode": "Gapless",
+    "autoCrossfade": true,
+    "crossfadeSeconds": 8,
+    "downloadQuality": "Lossless",
+    "explicitFilter": false,
+    "notifications": {
+      "newSessions": true,
+      "creatorUpdates": true,
+      "dailyDigest": false
+    }
+  },
+  "eqPresets": [
+    {
+      "name": "Studio Reference",
+      "points": [-2, 0, 1, 1, 0, -1],
+      "description": "針對封閉式耳罩調整，維持平坦響應。"
+    },
+    {
+      "name": "Commute Calm",
+      "points": [3, 2, -1, -2, -3, -4],
+      "description": "降低尖銳頻段，強化低頻以覆蓋交通噪音。"
+    },
+    {
+      "name": "Analog Warm",
+      "points": [-1, 2, 3, 1, -1, -2],
+      "description": "模擬磁帶飽和感與中頻厚度，適合爵士與靈魂樂。"
+    }
+  ],
+  "userStories": [
+    {
+      "name": "Ivy H.",
+      "role": "聲音設計師",
+      "story": "我在工作室使用空間音訊定位同步多位歌手的錄音，回家後改用手機依然能聽到相同的混音平衡。"
+    },
+    {
+      "name": "Miguel C.",
+      "role": "旅遊影像創作者",
+      "story": "旅行模式會偵測當地網路品質，提前下載備用清單，讓我在攝影棚外也能安心播放參考曲。"
+    }
+  ],
+  "releaseNotes": [
+    {
+      "version": "3.2.0",
+      "highlights": [
+        "新增旅行模式與動態降噪參數",
+        "上線歌詞同步翻譯",
+        "改進桌面版睡眠定時器"
+      ]
+    },
+    {
+      "version": "3.1.1",
+      "highlights": [
+        "修正播放佇列錯誤訊息",
+        "改善低電量模式下的串流穩定度"
+      ]
+    }
+  ],
+  "support": {
+    "email": "listening@eclipse.app",
+    "responseTime": "12 小時內回覆",
+    "docs": [
+      {
+        "title": "如何建立空間音訊個人檔案",
+        "url": "https://example.com/docs/spatial-profile"
+      },
+      {
+        "title": "調整 EQ 預設值",
+        "url": "https://example.com/docs/eq"
+      }
+    ]
+  }
+}

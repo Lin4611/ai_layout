@@ -1,0 +1,200 @@
+{
+  "hero": {
+    "product": "Orbit Studio",
+    "headline": "三步驟建立跨平台研究筆記",
+    "subhead": "Orbit 讓產品團隊快速蒐集使用者訪談片段，標記情緒與需求後即可輸出決策報告，讓跨部門同步保持透明。全新 Sense Layer 會自動套用情緒分類並生成引述卡片。",
+    "actions": ["立即試用 14 天", "觀看兩分鐘導覽"],
+    "heroImage": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1600&q=80",
+    "videoDemo": "https://example.com/videos/orbit-intro.mp4"
+  },
+  "socialProof": {
+    "logos": ["Acme Robotics", "Inland Bank", "Sora Mobility", "Heritage Clinic", "Mori Lab"],
+    "quote": "Orbit 讓我們每場訪談後 30 分鐘內就能整理決策要點，跨部門上線效率提升 40%。",
+    "quoteAuthor": "Avril Chen · Atlas Design 研究總監"
+  },
+  "features": [
+    {
+      "title": "自動轉錄與摘要",
+      "description": "支援 18 種語言與口音的 AI 逐字稿，並根據關鍵字產生可分享的 Insight 卡片。",
+      "icon": "📝"
+    },
+    {
+      "title": "客製化研究模板",
+      "description": "將研究流程拆成可複用的 Block，建立問卷、訪談與可用性測試腳本，支援匯入舊檔。",
+      "icon": "🧩"
+    },
+    {
+      "title": "利益關係人共編",
+      "description": "PM、設計與客服可以在相同介面標記重點，搭配 Slack / Teams 即時通知與權限設定。",
+      "icon": "🤝"
+    },
+    {
+      "title": "決策儀表板",
+      "description": "自動彙整待辦、風險與優先順序，並串接 Jira、Linear 更新狀態。",
+      "icon": "📊"
+    }
+  ],
+  "workflow": [
+    {
+      "step": "建立研究計畫",
+      "detail": "從 40+ 模板中選擇訪談或調查腳本，設定目標族群與研究任務，並指定協作者。",
+      "duration": "10 分鐘完成"
+    },
+    {
+      "step": "同步素材",
+      "detail": "匯入錄音、螢幕錄影或通訊軟體文本，系統會自動切割為片段並標記情緒權重。",
+      "duration": "即時處理"
+    },
+    {
+      "step": "輸出洞察",
+      "detail": "拖曳片段至 Insight 看板，系統會生成報表、推導假設並提供決策建議。",
+      "duration": "5 分鐘輸出簡報"
+    }
+  ],
+  "milestones": [
+    {
+      "metric": "2.4M",
+      "label": "累積處理的對話紀錄"
+    },
+    {
+      "metric": "92%",
+      "label": "團隊續約率"
+    },
+    {
+      "metric": "34%",
+      "label": "決策速度提升"
+    },
+    {
+      "metric": "68",
+      "label": "支援的第三方整合"
+    }
+  ],
+  "plans": [
+    {
+      "name": "Starter",
+      "price": "NT$890 / 帳號 / 月",
+      "description": "適合 3 人以下的新創或研究顧問，快速建立統一研究流程。",
+      "highlights": ["每月 50 小時轉錄", "無限模板", "Email 支援", "Insight 卡片匯出"]
+    },
+    {
+      "name": "Collaborative",
+      "price": "NT$1,590 / 帳號 / 月",
+      "description": "提供中小企業跨部門共編、單點登入與角色權限管理。",
+      "highlights": ["每月 150 小時轉錄", "Slack / Teams 整合", "優先客服", "自訂欄位"]
+    },
+    {
+      "name": "Enterprise",
+      "price": "聯繫業務",
+      "description": "支援自家雲端、審計日誌與進階安全政策，並提供專屬成功經理。",
+      "highlights": ["SAML / SCIM", "專屬部署", "專人導入訓練", "API 流量配額提升"]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "是否支援自家雲端儲存？",
+      "answer": "企業版可串接 AWS S3 或 GCS，並支援自訂資料保留政策與區域化儲存。"
+    },
+    {
+      "question": "如何保障訪談內容安全？",
+      "answer": "Orbit 透過 SOC 2 Type II 稽核與端對端加密，並提供審計記錄匯出與權限報告。"
+    },
+    {
+      "question": "可以離線記錄訪談嗎？",
+      "answer": "行動 App 支援離線錄音與逐字稿，回到線上後自動同步並維持標記。"
+    },
+    {
+      "question": "多人同時編輯會有衝突嗎？",
+      "answer": "Orbit 具備即時同步與編輯鎖定機制，所有註記皆有時間與作者記錄。"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Figma",
+      "description": "將研究洞察貼在設計檔案旁，維持上下文連結。",
+      "status": "beta"
+    },
+    {
+      "name": "Notion",
+      "description": "同步 Insight 到知識庫並自動建立雙向連結。",
+      "status": "stable"
+    },
+    {
+      "name": "Slack",
+      "description": "將重點片段傳送到指定頻道並收集回饋表情。",
+      "status": "stable"
+    },
+    {
+      "name": "Linear",
+      "description": "將洞察轉成任務並追蹤落實狀況。",
+      "status": "coming soon"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2021",
+      "event": "完成 A 輪募資並開放公測"
+    },
+    {
+      "year": "2022",
+      "event": "推出多語逐字稿與動態 Insight 卡片"
+    },
+    {
+      "year": "2023",
+      "event": "導入 AI Sense Layer 與跨部門儀表板"
+    },
+    {
+      "year": "2024",
+      "event": "釋出企業版與內建資料湖"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Claire Du",
+      "role": "Loop Mobility 產品總監",
+      "quote": "Orbit 的 Insight 看板讓工程、營運與客服可以在同一頁協作，我們的排程速度快了 1.8 倍。"
+    },
+    {
+      "name": "Forest Lin",
+      "role": "Clover Health 研究主管",
+      "quote": "研究員可以透過模板快速建立可複用的訪談流程，調整參數後共享給不同市場的分支。"
+    },
+    {
+      "name": "Zara Álvarez",
+      "role": "Muse Audio PM",
+      "quote": "Sense Layer 自動產生的情緒與需求摘要，讓我在跨國會議中以資料說服利害關係人。"
+    }
+  ],
+  "resources": [
+    {
+      "title": "研究節奏指南",
+      "type": "playbook",
+      "description": "解析如何從探索到驗證建立一週迭代流程。",
+      "url": "https://example.com/resources/rhythm"
+    },
+    {
+      "title": "採訪逐字稿模板包",
+      "type": "template",
+      "description": "收錄 12 種訪談情境，包含工單分析、客服 shadowing 等。",
+      "url": "https://example.com/resources/templates"
+    },
+    {
+      "title": "Stakeholder Workshop 教程",
+      "type": "video",
+      "description": "教你如何用 Orbit 進行共創工作坊並快速做出決策。",
+      "url": "https://example.com/resources/workshop"
+    }
+  ],
+  "cta": {
+    "title": "預約體驗，感受靜謐",
+    "body": "安排 30 分鐘線上導覽，由產品專家 Demo Sense Layer 與跨部門儀表板，並協助建立第一個研究模板。",
+    "primary": "預約體驗",
+    "secondary": "下載產品白皮書"
+  },
+  "contact": {
+    "email": "hello@orbitstudio.app",
+    "salesRegions": ["台北", "新加坡", "倫敦", "舊金山"],
+    "responseTime": "一個工作天內回覆",
+    "phone": "+886-2-0000-0000",
+    "officeHours": "週一至週五 09:00-18:00"
+  }
+}

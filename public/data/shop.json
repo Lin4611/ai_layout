@@ -1,0 +1,200 @@
+{
+  "hero": {
+    "eyebrow": "Nebula Atelier",
+    "headline": "以緩慢節奏打造耐看的生活物件",
+    "description": "我們與歐洲與台灣的 12 間小型工坊合作，採用回收纖維與素食皮革，推出每月限量 200 件的生活選品。每件作品附上工匠故事與保養指南，讓消費者了解產品誕生的背景，並透過透明的成本明細看見設計價值。",
+    "primaryAction": "探索本月選品",
+    "secondaryAction": "閱讀製程故事",
+    "media": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1600&q=80"
+  },
+  "announcement": {
+    "title": "城市巡迴展 · 台北站",
+    "body": "展示 18 位工匠的限量作品，並提供現場保養示範與訂製諮詢。購買者可獲得專屬的材質研究冊。",
+    "cta": "預約參觀"
+  },
+  "collections": [
+    {
+      "title": "旅途系列",
+      "description": "輕量托特與折疊式旅行袋，採用可回收尼龍、再生棉與手縫真皮肩帶。每件作品都附上航線靈感故事。",
+      "image": "https://images.unsplash.com/photo-1517840949274-76b05c0c6a6d?auto=format&fit=crop&w=1200&q=80",
+      "items": ["48 小時城市旅行袋", "霧霾灰滾邊隨身包", "可摺疊行李鑰匙扣"]
+    },
+    {
+      "title": "留白家居",
+      "description": "霧面白瓷、灰階寢具與天然木作配件，以柔和線條與抗汙釉料帶來沉靜質感。每件作品附上材質與工法記錄卡。",
+      "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "items": ["低飽和陶盤四件組", "灰霧天絲被套組", "黃銅燭台與香氛碟"]
+    },
+    {
+      "title": "書寫工具",
+      "description": "黃銅筆、可替換墨囊與再製紙品，為書桌帶來儀式感。提供刻字服務與可補充的墨色補給方案。",
+      "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
+      "items": ["磁吸式黃銅筆", "森林調色墨水組", "再生紙質筆記本"]
+    },
+    {
+      "title": "香氛實驗室",
+      "description": "以冷製精油與植物萃取調製的香氛蠟燭與擴香，提供三段式香調故事與配樂播放清單。",
+      "image": "https://images.unsplash.com/photo-1484981138541-b1f3f34cbb7e?auto=format&fit=crop&w=1200&q=80",
+      "items": ["石花香根草蠟燭", "白茶雪松精油", "夜色無花果擴香"]
+    }
+  ],
+  "featuredProducts": [
+    {
+      "name": "霧感植鞣皮托特包",
+      "sku": "NA-TRAVEL-01",
+      "price": "NT$8,200",
+      "description": "手工縫製的義大利植鞣皮革，內層配置 3 個防潑水口袋與可拆式筆電套。肩帶使用環保素皮，減壓結構可對應 14 吋筆電。",
+      "badges": ["限量 120 件", "可免費刻字"],
+      "materials": ["植鞣牛皮", "環保麂皮內裡", "磁吸金屬扣"],
+      "care": "以中性保養油擦拭即可恢復光澤，附上產品壽命紀錄卡。",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "name": "灰階亞麻寢具組",
+      "sku": "NA-HOME-04",
+      "price": "NT$5,450",
+      "description": "法國亞麻纖維搭配天然酵素柔軟處理，夏季透氣、冬季保暖，附三款枕套尺寸與色塊拼接的床旗，適合混搭。",
+      "badges": ["回收材質 60%", "附保養指南"],
+      "materials": ["法國亞麻", "天絲纖維", "植物性染料"],
+      "care": "建議使用冷水洗滌、自然晾乾；可加購保養體驗課程。",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "name": "黃銅隨身筆",
+      "sku": "NA-DESK-02",
+      "price": "NT$2,150",
+      "description": "精密車床切削，附磁吸筆蓋與三色可替換墨芯，表面會隨時間形成獨特氧化層。可配對筆座與便攜皮套。",
+      "badges": ["職人學校聯名"],
+      "materials": ["銅合金", "樹脂墨水芯"],
+      "care": "以拋光布擦拭即可，若想保留舊化感可使用專用封蠟。",
+      "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "name": "城市旅人收納冊",
+      "sku": "NA-ACCESS-05",
+      "price": "NT$3,280",
+      "description": "結合護照、水電費收據與靈感卡片的多功能收納冊，採用軟木纖維與磁吸裝訂，可自行新增補充頁。",
+      "badges": ["附刻字服務", "可加購補充包"],
+      "materials": ["軟木纖維", "棉線", "口袋式 PVC"],
+      "care": "附上 DIY 修補包，提供線上維修影片。",
+      "image": "https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "lookbook": {
+    "title": "2025 春季 Lookbook",
+    "description": "由旅居哥本哈根的攝影師 Claudia Lee 操刀，記錄四位創作人在自宅、工作室與旅途中使用產品的日常。每張照片都附上材質搭配說明。",
+    "entries": [
+      {
+        "caption": "設計師在北歐公寓整理旅行包，搭配灰藍亞麻襯衫。",
+        "image": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1400&q=80"
+      },
+      {
+        "caption": "陶藝家在工作台上擺放白瓷與香氛工具，展現留白家居的層次。",
+        "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1400&q=80"
+      },
+      {
+        "caption": "音樂人帶著黃銅筆與筆記本記錄靈感，桌上佈滿手繪草稿。",
+        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1400&q=80"
+      }
+    ]
+  },
+  "services": {
+    "title": "延伸服務",
+    "entries": [
+      {
+        "name": "保養診療室",
+        "description": "線上預約 30 分鐘，由職人遠端指導包款與皮件保養。提供即時鏡頭教學與材料包。",
+        "perks": ["附數位保養紀錄", "提供材料補寄"]
+      },
+      {
+        "name": "混搭顧問",
+        "description": "根據居家或工作室色調，推薦最適合的家飾組合，可線上模擬擺放效果。",
+        "perks": ["三套情境提案", "贈送色票樣本"]
+      },
+      {
+        "name": "企業定製",
+        "description": "為品牌活動打造限定禮盒與書寫工具，提供刻字、包裝與寄送全套服務。",
+        "perks": ["專屬專案經理", "可串接 CRM"]
+      }
+    ]
+  },
+  "stories": [
+    {
+      "title": "一件產品，三個維修週期",
+      "content": "我們提供 3 年內免費一次的整新服務，並分享保養教學影片。透過社群 Live，我們讓客戶看見工坊如何拆解、打磨與重新縫製，建立透明的售後體驗。",
+      "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "title": "來自布拉格的紡織老師",
+      "content": "合作工坊主理人 Klara 以傳統手織布機製作條紋布料。她將舊報紙剪成紗線，融入留白家居系列，象徵循環與時間痕跡。",
+      "image": "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=1600&q=80"
+    }
+  ],
+  "guides": [
+    {
+      "title": "材質照護指南",
+      "sections": ["植鞣皮革：避免長時間曝曬，使用附贈的天然油條件式保養。", "亞麻紡織：建議裝入洗衣袋並選擇低溫模式洗滌，懸掛風乾可減少皺折。", "黃銅配件：每月使用拋光布擦拭一次，若需要緩慢氧化可塗抹護膜。"]
+    },
+    {
+      "title": "選品懶人包",
+      "sections": ["旅行派：選擇旅途系列中的可摺疊包，重量僅 680g。", "居家派：搭配留白家居的陶瓷與香氛，打造柔和筆直線條。", "文具派：書寫工具系列可搭配刻字，適合作為禮物。"]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "劉芷蓉",
+      "role": "品牌顧問",
+      "quote": "購買前可以先閱讀工匠卡，讓我更願意為長期使用的產品投入預算，也能與設計團隊分享背後故事。"
+    },
+    {
+      "name": "柯伊凡",
+      "role": "跨國設計師",
+      "quote": "客服會協助確認現有配件是否可維修，大幅降低丟棄物件的機會。線上診療室更像溫柔的陪伴。"
+    },
+    {
+      "name": "陳予希",
+      "role": "文字工作者",
+      "quote": "黃銅筆與紙品的組合讓長時間寫作更有儀式感，加上自訂刻字，送禮也充滿心意。"
+    }
+  ],
+  "inventoryHighlights": [
+    {
+      "label": "客製需求",
+      "value": "32%",
+      "note": "每月新增的定製請求，主要集中在書寫工具與香氛禮盒。"
+    },
+    {
+      "label": "可回收材質",
+      "value": "78%",
+      "note": "2024 年所有出貨商品中採用可回收或再生材質的占比。"
+    },
+    {
+      "label": "維修回流",
+      "value": "64 件",
+      "note": "季度內返回工坊保養的包款與皮夾數量。"
+    }
+  ],
+  "newsletter": {
+    "title": "訂閱設計快訊",
+    "description": "每月寄出材質研究、職人訪談與 Lookbook，並附上限量預購通知。訂閱者可優先參與線上保養課程。",
+    "placeholder": "email@example.com",
+    "submitLabel": "訂閱"
+  },
+  "faq": [
+    {
+      "question": "若商品需要維修，流程為何？",
+      "answer": "登入會員後即可預約維修，系統會產生物流條碼並安排客製化保險包材。工坊在收件後 48 小時內回報檢查報告。"
+    },
+    {
+      "question": "是否提供企業採購方案？",
+      "answer": "企業可預約專人諮詢，我們會依據品牌價值提出禮盒、刻字與寄送方案，也可協助 ESG 報告所需的材料追蹤。"
+    },
+    {
+      "question": "如何確認材質來源？",
+      "answer": "每件商品都附有溯源 QR code，掃描即可查看供應鏈夥伴、環保認證與運輸方式。"
+    },
+    {"question": "可以預訂缺貨商品嗎？", "answer": "可在商品頁開啟補貨提醒，系統會在回補前 24 小時寄出通知，並提供保留名額 48 小時。"},
+    {"question": "線上與門市價格是否一致？", "answer": "價格同步一致，僅在城市巡迴展期間依運輸成本微調，詳細資訊會提前公告。"},
+    {"question": "如何查詢包材是否環保？", "answer": "訂單出貨明細中會顯示包材材質與回收方式，也可於會員中心下載 ESG 報告。"}
+  ]
+}
